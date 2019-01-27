@@ -1,0 +1,39 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="takip_yakit">
+    <output-path>$PROJECT_DIR$/out/artifacts/takip_yakit</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="customManifestAttributes">
+          <list>
+            <JavaFxManifestAttribute>
+              <option name="name" value="shortcutHint" />
+              <option name="value" value="true" />
+            </JavaFxManifestAttribute>
+          </list>
+        </option>
+        <option name="description" value="" />
+        <option name="height" value="800" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+        <option name="width" value="1100" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="takip_yakit.jar">
+        <element id="module-output" name="takip_yakit" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/../jars/commons-collections4-4.0.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../jars/commons-collections4-4.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../jars/commons-compress-1.18.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../jars/poi-4.0.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../jars/poi-ooxml-4.0.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../jars/poi-ooxml-schemas-4.0.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../jars/sqlite-jdbc-3.23.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../jars/xmlbeans-3.0.2.jar" />
+    </root>
+  </artifact>
+</component>
